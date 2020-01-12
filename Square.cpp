@@ -4,15 +4,20 @@ Square::Square(TypeCase typeGiven) : type(typeGiven)
 {
     switch (typeGiven)
     {
-    case Square::TypeCase::simple:
-        r = 245;
-        g = 222;
-        b = 179;
+    case Square::TypeCase::simplePair:
+        r = 211;
+        g = 229;
+        b = 241;
+        break;
+    case Square::TypeCase::simpleImpair:
+        r = 199;
+        g = 218;
+        b = 226;
         break;
     case Square::TypeCase::mur:
-        r = 165;
-        g = 42;
-        b = 42;
+        r = 0;
+        g = 200;
+        b = 200;
         break;
     case Square::TypeCase::vide:
         r = 0;

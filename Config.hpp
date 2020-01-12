@@ -12,8 +12,10 @@ public:
         return instance;
     }
 
-    static const int SQUARESIZE{50};
-    static const int NUMBEROFSQUARE{10};
+    static const int SQUARESIZE{40};
+    static const int THICKNESS{1};
+    static const int NUMBEROFSQUARELIGNE{25};
+    static const int NUMBEROFSQUARECOLONNE{15};
 
 private:
     Config() = default;

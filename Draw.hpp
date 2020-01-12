@@ -18,6 +18,7 @@ private:
     pair<int, int> position{-1, -1};
     void setPosition(pair<int, int> positionGiven);
     void drawSquare(Square &square, sf::RenderWindow &window, int val);
+    void drawSquare2(Square &square, sf::RenderWindow &window, int val);
 };
 
 #endif

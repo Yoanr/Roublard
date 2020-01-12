@@ -6,12 +6,13 @@ class Square
 public:
     enum TypeCase
     {
-        simple = 0,
-        mur = 1,
-        vide = 2,
-        joueur1 = 3,
-        joueur2 = 4,
-        bombe = 5
+        simplePair = 0,
+        simpleImpair = 1,
+        mur = 2,
+        vide = 3,
+        joueur1 = 4,
+        joueur2 = 5,
+        bombe = 6
     };
     Square(TypeCase t);
     Square()  = default;
