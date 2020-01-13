@@ -1,5 +1,6 @@
 #ifndef CONFIG_HPP
 #define CONFIG_HPP
+#include <SFML/Graphics.hpp>
 
 using namespace std;
 
@@ -11,7 +12,8 @@ public:
         static Config instance;
         return instance;
     }
-
+    static const int FenetreX{1200};
+    static const int FenetreY{800};
     static const int SQUARESIZE{40};
     static const int THICKNESS{1};
     static const int NUMBEROFSQUARELIGNE{25};

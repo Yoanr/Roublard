@@ -9,7 +9,7 @@
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(1200, 800), "Roublard.exe"); // fenetre
+    sf::RenderWindow window(sf::VideoMode(1200, 800), "Roublard PlayMaker", sf::Style::Titlebar | sf::Style::Close); // fenetre
 
     GameEngine& gameEngine = GameEngine::getInstance();
     Draw& draw = Draw::getInstance();

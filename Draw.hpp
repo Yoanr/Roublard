@@ -15,10 +15,11 @@ public:
     void render(GameEngine &gameEngine, sf::RenderWindow &window);
 
 private:
+    Draw() = default;
     pair<int, int> position{-1, -1};
     void setPosition(pair<int, int> positionGiven);
     void drawSquare(Square &square, sf::RenderWindow &window, int val);
-    void drawSquare2(Square &square, sf::RenderWindow &window, int val);
+    void drawGrille(GameEngine &gameEngine, sf::RenderWindow &windowGiven);
 };
 
 #endif
